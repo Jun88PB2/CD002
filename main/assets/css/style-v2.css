@@ -217,7 +217,12 @@ b, strong {
 .btn-link:hover {
     scale: 1.05;
     cursor: pointer;
-    transition: .125s all ease-in-out !important;
+    transition: .3s all ease-in-out !important;
+}
+
+.ambassador-img:not(:hover),
+.btn-link:not(:hover) {
+    transition: .3s all ease-in-out !important;
 }
 
 .dp-toogle-sm {
